@@ -13,23 +13,6 @@
             <input type="button" value="Limpar" onclick="clearing()">
         </form>
         <p id="demo"></p>
-        <script>
-            function change(){
-                const number = document.forms.form.phone.value;
-                document.forms.form.phone.value = "55" + number;
-            };
-            function clearing(){
-                document.forms.form.phone.value = "";
-            };
-            function saveMessage(){
-                localStorage.setItem("message", document.forms.form.text.value);
-            };
-            function getMessage(){
-                if (localStorage.getItem("message")){
-                    document.forms.form.text.value = localStorage.getItem("message");
-                };
-            };
-            document.getElementById("demo").innerHTML = localStorage.getItem("message");
-        </script>
+        <script src="zap-for-drivers.js"></script>
     </body>
 </html>
