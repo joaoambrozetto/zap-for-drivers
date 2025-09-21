@@ -1,0 +1,28 @@
+header, footer {
+    width: auto;
+    height: 60px;
+    background-color: #fee600;
+
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button {
+    background-color: #2b2f77;
+    border: none;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    float: right;
+}
+
+#header-elem {
+    display: flex;
+    flex-direction: row;
+}
