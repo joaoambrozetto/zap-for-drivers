@@ -3,8 +3,15 @@
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Zap for Drivers</title>
+        <link rel="stylesheet" href="app_styles.css">
     </head>
     <body onload="getMessage()">
+        <header>
+            <div id="header-elem">
+                <img src="zap_for_drivers_logo.png" alt="logo" style="height: 60px; width: 60px;">
+                <button>Configurações</button>
+            </div>
+        </header>
         <h1>Seja bem vindo ao Zap for Drivers!</h1>
         <form name="form" action="https://wa.me" method="get" onsubmit="change()" >
             <input type="text" placeholder="00 000000000" name="phone" required>
@@ -13,6 +20,9 @@
             <input type="button" value="Limpar" onclick="clearing()">
         </form>
         <p id="demo"></p>
+        <footer>
+
+        </footer>
         <script src="zap-for-drivers.js"></script>
     </body>
 </html>
