@@ -22,4 +22,4 @@ git clone https://github.com/joaoambrozetto/zap-for-drivers.git
 ```bash
 docker-compose up -d
 ```
-3. Go to http://localhost:8080/pwa
+3. Go to http://localhost:8080/pwa ...
